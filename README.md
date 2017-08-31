@@ -41,7 +41,7 @@ To install this project, please follow the steps below:
     ```
     $ cd /opt
     $ sudo git clone --recursive https://github.com/romyny/faster_rcnn_face.git
-    $ cd faster_rcnn_logo
+    $ cd faster_rcnn_face
     ```
     
 3. Install all externals repositories required:
@@ -79,7 +79,7 @@ Get the data and models required:
 1. Download the data and uncompress in 'data'
   * person.24cls: [Google Drive](https://drive.google.com/open?id=0B_Rjj_NgCayPM1EzQVkwM1VueW8) -> data/VOCdevkit2007
 
-2. Download the models and uncompress in 'data/logo_models'
+2. Download the models and uncompress in 'data/person_models'
   * person_models (VGG16): [Google Drive](https://drive.google.com/open?id=0B_Rjj_NgCayPeFpramdSWkVBWXc) -> data/person_models
   * person_models (RestNet-101): coming soon
   
@@ -98,7 +98,7 @@ Get the data and models required:
 2. Launch train & test process:
 
     ```
-    $ cd $faster_rcnn_logo_DIR/experiments/scripts
+    $ cd $faster_rcnn_face_DIR/experiments/scripts
     $ bash faster_rcnn_end2end_face.sh 0 VGG16 pascal_voc \
       --set EXP_DIR person_24cls RNG_SEED 42 TRAIN.SCALES "[400,500,600,700]"
     ```
