@@ -2,7 +2,7 @@
 
 Application of faster_rcnn in face recognition case
 
-Setup by Romuald FOTSO
+Setup by Franck FOTSO
 
 ## Introduction:
 
@@ -104,7 +104,7 @@ Get the data and models required:
     ```
     
 ## Our results
-The model generated at the 30th iteration gives a mAP^0.5 = 0.7217
+The model generated at the 30k^th iteration gives a mAP^0.5 = 0.7217
 
 All results related to demo dataset will be saved at 'data/demo_out'
 
@@ -112,4 +112,4 @@ All results related to demo dataset will be saved at 'data/demo_out'
 
 ## Contact
 
-Please feel free to leave suggestions or comments to Romuald FOTSO (romyny9096@gmail.com)    
+Please feel free to leave suggestions or comments to Franck FOTSO (romyny9096@gmail.com)    
